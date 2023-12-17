@@ -13,7 +13,7 @@ class Program
 		Console.WriteLine("{0} is zero", number);
 				}	
 	else {
-		Console.Write("{0} is negative", number);
+		Console.WriteLine("{0} is negative", number);
 		}	
     }
 }
