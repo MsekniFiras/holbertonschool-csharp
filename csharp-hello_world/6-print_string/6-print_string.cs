@@ -7,6 +7,6 @@ class Program
 		string str = "Holberton School";
 		string str2 = $"{str}{str}{str}";
 		Console.WriteLine(str2);
-		Console.WriteLine($"str.SubString(0,9)");
+		Console.WriteLine($"{str.SubString(0,9)}");
         }
 }
