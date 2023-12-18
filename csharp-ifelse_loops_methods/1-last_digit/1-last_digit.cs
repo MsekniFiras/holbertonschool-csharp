@@ -8,7 +8,7 @@ class Program
         int number = rndm.Next(-10000, 10000);
 	int digit = number % 10;
 	string output = "";
-	Console.Write($"The last digit of {number} is {digit}");
+	Console.Write($"The last digit of {number} is {digit} ");
 	if (digit > 5) {
 			output = "and is greater than 5";
 			}
