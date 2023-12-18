@@ -9,7 +9,7 @@ namespace _3_print_alphabt
 	for (char i = 'a'; i <= 'z'; i++) {
 						if (i != 'e' && i != 'q') {
 						
-									  Console.Write("i");
+									  Console.Write(i);
 									}			
 					}
 	}
