@@ -13,10 +13,9 @@ namespace _6_print_comb2
 					Console.Write($"{i}{j}, ");
 				
 				else 
-				Console.Write($"{i}{j}");
+				Console.WriteLine($"{i}{j}");
 				}
 				}
-            Console.WriteLine();
 	}
 	}
 	
