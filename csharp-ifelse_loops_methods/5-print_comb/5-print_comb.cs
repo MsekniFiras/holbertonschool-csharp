@@ -6,7 +6,7 @@ namespace _5_print_comb
     {
         static void Main(string[] args)
         {
-	for (i = 0; i <= 99; i++) {
+	for (int i = 0; i <= 99; i++) {
 		if (i == 99) {
 			Console.WriteLine($"{0:D2}", i);
 				}
