@@ -14,5 +14,6 @@ namespace _5_print_comb
             Console.WriteLine($"{0:D2}, ", i);
         }
 	}
+	}
     }
 }
