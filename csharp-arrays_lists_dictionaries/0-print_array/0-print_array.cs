@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Text;
 
-namespace _0_print_array
-{
     class Array
     {
         public static int[] CreatePrint(int size)
@@ -12,19 +9,18 @@ namespace _0_print_array
 		return null;
 			}
 
+		else if (size == 0) {
+		Console.WriteLine();
+		return new int[size];
+				}
+		else {
 		int[] arr = new int[size];
-		var output = new StringBuilder();
-
 		for (int i = 0; i < size; i++) {
-			output.Append(i);
-			if (i != size - 1) {
-
-				output.Append(" ");
-					}
 			arr[i] = i;
+			}
 				
 					}
-		Console.WriteLine(output);
+		Console.WriteLine(string.Join(" ", arr);
 		return arr;
 		
     }    
