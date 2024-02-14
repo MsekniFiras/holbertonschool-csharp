@@ -22,7 +22,7 @@ namespace _0_print_array
 				output.Append(" ");
 					}
 			arr[i] = i;
-				}
+				
 					}
 		Console.WriteLine(output);
 		return arr;
