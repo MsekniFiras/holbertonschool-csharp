@@ -19,10 +19,10 @@
 			arr[i] = i;
 			}
 				
-					}
+					
 		Console.WriteLine(string.Join(" ", arr));
 		return arr;
 		
     }    
     }
-}
+
