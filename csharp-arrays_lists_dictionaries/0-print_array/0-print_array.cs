@@ -27,6 +27,6 @@ namespace _0_print_array
 		Console.WriteLine(output);
 		return arr;
 		
-        
+    }    
     }
 }
