@@ -17,15 +17,15 @@
 		}
 		else
 		 {
-		int[] array = new int[size];
+		int[] newArray = new int[size];
 		for (int i = 0; i < size; i++) 
 			{
 			array[i] = i;
 			}
 		}	
 					
-		Console.WriteLine(string.Join(" ", array));
-		return array;
+		Console.WriteLine(string.Join(" ", newArray));
+		return newArray;
 		
 	}    
     }
