@@ -20,7 +20,7 @@
 			}
 				
 					}
-		Console.WriteLine(string.Join(" ", arr);
+		Console.WriteLine(string.Join(" ", arr));
 		return arr;
 		
     }    
