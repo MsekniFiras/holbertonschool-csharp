@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace _1_element_at
-{
+
     class Program
     {
         public static int elementAt(int[] array, int index)
@@ -13,4 +12,3 @@ namespace _1_element_at
 	return array[index];
         }
     }
-}
