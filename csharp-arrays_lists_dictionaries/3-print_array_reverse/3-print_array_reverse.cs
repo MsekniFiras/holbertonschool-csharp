@@ -16,7 +16,7 @@
 		if (i != 0)
 			Console.Write($"{array[i]} ");
 		else
-			Console.Write($"{array[i]}");
+			Console.WriteLine($"{array[i]}");
 		}
 	}
 	else
