@@ -1,7 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _8_number_keys
-{
     class Dictionary
     {
         public static int NumberOfKeys(Dictionary<string, string> myDict)
@@ -12,4 +11,4 @@ namespace _8_number_keys
             return i;
         }
     }
-}
+
