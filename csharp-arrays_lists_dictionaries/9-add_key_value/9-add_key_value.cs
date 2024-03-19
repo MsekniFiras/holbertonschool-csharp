@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-    class Dictionary
+class Dictionary
+{
+    public static Dictionary<string, string> AddKeyValue(Dictionary<string, string> myDict, string key, string value)
     {
-        public static Dictionary<string, string> AddKeyValue(Dictionary<string, string> myDict, string key, string value)
-        {
-            if (myDict == null)
+        if (myDict == null)
         {
             Console.WriteLine("Dictionary is null");
             return null;
@@ -18,7 +18,6 @@ using System.Collections.Generic;
         {
             myDict.Add(key, value);
         }
-            return myDict;
+        return myDict;
     }
-    
 }
