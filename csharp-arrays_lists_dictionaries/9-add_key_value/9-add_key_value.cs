@@ -1,12 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _9_add_key_value
-{
-    class Program
+    class Dictionary
     {
-        static void Main(string[] args)
+        public static Dictionary<string, string> AddKeyValue(Dictionary<string, string> myDict, string key, string value)
         {
-            Console.WriteLine("Hello World!");
-        }
+             myDict[key] = value;
+            return myDict;
     }
 }
