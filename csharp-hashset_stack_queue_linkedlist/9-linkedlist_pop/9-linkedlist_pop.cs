@@ -1,5 +1,5 @@
 ﻿using System;
-using System.collections.Generic;
+using System.Collections.Generic;
 
     class LList
     {
