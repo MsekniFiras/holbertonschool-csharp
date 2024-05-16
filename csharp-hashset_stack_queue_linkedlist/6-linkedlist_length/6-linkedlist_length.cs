@@ -6,7 +6,7 @@ using System.Collections.Generic;
         public static int Length(LinkedList<int> myLList)
         {
              int len = 0;
-        foreach( var element in myList){
+        foreach( var element in myLList){
             len++;
         }
         return len;
