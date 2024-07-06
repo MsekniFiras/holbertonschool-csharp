@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Text;
+
 namespace Text.Tests
 {
     public class Tests
@@ -8,28 +9,36 @@ namespace Text.Tests
         public void Setup()
         {
         }
+
         [Test]
         public void TestNull()
         {
             Assert.AreEqual(-1, Text.Str.UniqueChar(null));
         }
         [Test]
-        public void TestRepeating()
+        public void TestFirstLetter()
         {
-            var res = Str.UniqueChar("abzed");
-            Assert.AreEqual(res, 0);
+            Assert.AreEqual(0, Text.Str.UniqueChar("Hello"));
         }
         [Test]
-        public void test_2()
+        public void TestNotSameInTheLast()
         {
-            var res = Str.UniqueChar("aaaazeee");
-            Assert.AreEqual(res, 4);
+            Assert.AreEqual(6, Text.Str.UniqueChar("hhhrrrxyzrr"));
         }
         [Test]
-        public void test_3()
+        public void TestThirdLetter()
         {
-            var res = Str.UniqueChar("aaaaaaaaa");
-            Assert.AreEqual(res,-1);
+            Assert.AreEqual(2, Text.Str.UniqueChar("llor"));
+        }
+        [Test]
+        public void TestLastLetter()
+        {
+            Assert.AreEqual(7, Text.Str.UniqueChar("lllllllr"));
+        }
+        [Test]
+        public void TestAllSame()
+        {
+            Assert.AreEqual(-1, Text.Str.UniqueChar("llllllll"));
         }
     }
 }
