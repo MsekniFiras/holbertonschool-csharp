@@ -1,15 +1,18 @@
 using System;
+using System.Collections.Generic;
+
+/// <summary>Represents the class Obj.</summary>
+class Obj
+{
     /// <summary>
-    /// class obj
+    /// Checks if Obj is type of int.
     /// </summary>
-
-
-    class Obj
-    {
-        
-        public static bool IsOfTypeInt(object obj)
-        {
-            int n1 = 1;
-            return Object.ReferenceEquals(obj.GetType(), n1.GetType());
+    /// <param name="obj">Obj to be checked.</param>
+    /// <returns>returns True if the object is an int, otherwise return False.</returns>
+    public static bool IsOfTypeInt(object obj){
+        if (obj.GetType() == typeof(int)){
+            return true;
         }
+        return false;
     }
+}
